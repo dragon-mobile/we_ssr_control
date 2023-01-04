@@ -7,7 +7,7 @@
 ![GitHub](https://img.shields.io/github/last-commit/dragon-mobile/we_ssr_control)<br/>
 
 The WEMOS Solid State Relay Controller is primarily meant to be
-used with an open hardware solid state relay PCB that is being co-developed
+used with an open hardware solid state relay PCBs that is being co-developed
 alongside this project as part of my Dragon Mobile GitHub organization to make
 useful hardware with associated firmware and software for the tiny home, van
 life and maker communities.
