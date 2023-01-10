@@ -12,6 +12,13 @@ alongside this project as part of my Dragon Mobile GitHub organization to make
 useful hardware with associated firmware and software for the tiny home, van
 life and maker communities.
 
+## Visual 3D examples
+
+Top view<br/>
+![Top view 3D rendering of the circuit board in FreeCAD](docs/we_ssr_control.png "Circuit board top view")<br/>
+Bottom view<br/>
+![Bottom view 3D rendering of the circuit board in FreeCAD](docs/we_ssr_control_back.png "Circuit board bottom view")<br/>
+
 ## Contributing
 
 Contributors are welcome.
@@ -76,7 +83,7 @@ to guided you through my understanding of how it works.
 [MIT]: https://opensource.org/licenses/MIT
 
 <hr>
-Copyright &copy; 2022, Michael Cummings<br/>
+Copyright &copy; 2022-2023, Michael Cummings<br/>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
 </a>
