@@ -7,11 +7,13 @@
   (paper "USLetter")
   (title_block
     (title "Dragon We SSR Control")
-    (date "2023-01-10")
-    (rev "0.0.9")
+    (date "2023-01-29")
+    (rev "0.0.10")
     (comment 2 "creativecommons.org/licenses/by/4.0/")
     (comment 3 "License: CC By 4.0")
     (comment 4 "Author: Michael Cummings")
+    (comment 5 "https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2")
+    (comment 6 "Hardware License: CERN-OHL-W")
   )
 
   (layers
