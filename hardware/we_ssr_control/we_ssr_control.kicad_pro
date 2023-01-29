@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.5,
-          "width": 1.0
+          "drill": 1.28,
+          "height": 1.92,
+          "width": 1.92
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -122,6 +122,7 @@
       },
       "track_widths": [
         0.0,
+        0.25,
         0.5,
         2.25,
         2.5
@@ -384,7 +385,9 @@
         "microvia_drill": 0.1,
         "name": "Battery",
         "nets": [
-          "+BATT"
+          "+BATT",
+          "/Control Out/PwrIn1",
+          "/Control Out/PwrIn2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
@@ -392,6 +395,33 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 19.68503937007874
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Control",
+        "nets": [
+          "/Control Out/BANK_A.CNTL1",
+          "/Control Out/BANK_A.CNTL2",
+          "/Control Out/BANK_A.CNTL3",
+          "/Control Out/BANK_A.CNTL4",
+          "/Control Out/BANK_B.CNTL5",
+          "/Control Out/BANK_B.CNTL6",
+          "/Control Out/BANK_B.CNTL7",
+          "/Control Out/BANK_B.CNTL8"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 255, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
       },
       {
         "bus_width": 29.52755905511811,
@@ -441,9 +471,18 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Signal",
-        "nets": [],
+        "nets": [
+          "/WeMOS Control/IO1",
+          "/WeMOS Control/IO2",
+          "/WeMOS Control/IO3",
+          "/WeMOS Control/IO4",
+          "/WeMOS Control/IO5",
+          "/WeMOS Control/IO6",
+          "/WeMOS Control/IO7",
+          "/WeMOS Control/IO8"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -483,7 +522,7 @@
           "+VDC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 255, 0)",
+        "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -548,6 +587,22 @@
     [
       "0eec8485-c667-4bd4-b362-8a00007c8b10",
       ""
+    ],
+    [
+      "4ac8bdba-99f0-493b-92b7-7ade4e7be401",
+      "Power Management"
+    ],
+    [
+      "a6fe8e39-c8fe-4793-ba2c-9e580a74c2e6",
+      "WeMOS Control"
+    ],
+    [
+      "58a4efa4-cd7c-4ec3-85b7-bca92adb4987",
+      "Manual Control"
+    ],
+    [
+      "0f246ae8-dc82-4d44-8ac7-ac4c10e46d85",
+      "Control Out"
     ]
   ],
   "text_variables": {}
