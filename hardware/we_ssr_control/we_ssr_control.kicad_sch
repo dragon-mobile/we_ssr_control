@@ -1235,9 +1235,6 @@
     (path "/b04ebeb8-7c13-4707-856f-a568ef5decdd"
       (reference "#PWR02") (unit 1) (value "GNDPWR") (footprint "")
     )
-    (path "/4ac8bdba-99f0-493b-92b7-7ade4e7be401/3ecb1f43-9e83-44bf-8d6f-1ea95c455ae6"
-      (reference "#PWR03") (unit 1) (value "+VDC") (footprint "")
-    )
     (path "/4ac8bdba-99f0-493b-92b7-7ade4e7be401/e01da32f-93cb-4f4b-b7bd-dc7d325e2a93"
       (reference "#PWR04") (unit 1) (value "GNDPWR") (footprint "")
     )
@@ -1395,7 +1392,7 @@
       (reference "RS8") (unit 1) (value "270") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4ac8bdba-99f0-493b-92b7-7ade4e7be401/5f553ddc-98e6-4ffc-97c2-9503216a6384"
-      (reference "RZ1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "RZ1") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/58a4efa4-cd7c-4ec3-85b7-bca92adb4987/3f571e67-ec96-4775-9c18-10f291cf4c11"
       (reference "S1") (unit 1) (value "193-8MS") (footprint "dragon_mobile:1938MS")

@@ -519,7 +519,7 @@
         "microvia_drill": 0.1,
         "name": "VDC",
         "nets": [
-          "+VDC"
+          "/Power Management/VDC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 0, 0)",
