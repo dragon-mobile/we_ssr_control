@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.28,
-          "height": 1.92,
-          "width": 1.92
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,9 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|105853033|71246968|99064f48-9a44-4f77-9308-f80504d743ad|7d14c3cd-05a3-47ba-96a3-ba235b028da5"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -124,6 +122,8 @@
         0.0,
         0.25,
         0.5,
+        0.55,
+        0.75,
         2.25,
         2.5
       ],
@@ -131,6 +131,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -432,7 +440,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Gound",
+        "name": "Ground",
         "nets": [
           "GNDPWR"
         ],
@@ -460,6 +468,26 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 19.68503937007874
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power Good",
+        "nets": [
+          "/Power Management/PG"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
