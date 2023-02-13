@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "We_control")(type "KiCad")(uri "${KIPRJMOD}/footprints/We_control.pretty")(options "")(descr ""))
+  (lib (name "dragon_mobile")(type "KiCad")(uri "${KIPRJMOD}/shared_components/KiCAD/footprints/dragon_mobile.pretty")(options "")(descr ""))
 )
