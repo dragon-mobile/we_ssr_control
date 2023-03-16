@@ -754,7 +754,7 @@
     (uuid dce294db-16d0-4851-8e32-13bf9324efd1)
   )
 
-  (hierarchical_label "BANK_A{OUT1..4]}" (shape passive) (at 76.2 38.1 0) (fields_autoplaced)
+  (hierarchical_label "BANK_A{OUT[1..4]}" (shape passive) (at 76.2 38.1 0) (fields_autoplaced)
     (effects (font (size 2 2) bold) (justify left))
     (uuid 13c204e3-40d3-46c2-9b22-004864dc0ebc)
   )
